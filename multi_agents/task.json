@@ -1,0 +1,18 @@
+{
+  "query": "Write me a technical report conducting market analysis on the price of Tesla model S 2024. Compare its price across different countries. Reference multiple sources in a table, not just one on repeat.",
+  "max_sections": 3,
+  "publish_formats": {
+    "markdown": true,
+    "pdf": true,
+    "docx": true
+  },
+  "follow_guidelines": false,
+  "model": "gpt-4o",
+  "guidelines": [
+    "You are writing a technical proposal from the AI R&D agencies perspective.",
+    "The client is Cognito, a UK educational company, producing educational content for GCSE and A-Level Students.",
+    "The client is asking to implement the following features: - **Personalised learning journey** - AI will suggest the best activities to do (e.g. which lesson, quiz, FC deck etc) - The plan will update as they do activities and get Qs right/wrong - Students can enter information such as dates and topics of a particular mock, and the AI plan would adapt to it - **Adaptive learning streams** - AI will update lessons, quizzes etc based on how the student is doing - For example, if they get a Q on the definition of osmosis wrong, then they'll be given a similar Q later in the lesson, but it will be slightly different e.g. different missing words - **Chatbot / AI tutor** - A chatbot that that can answer specific questions about their course e.g. what is the definition of diffusion - Ideally, this would pull in content from our content library rather than being complete bespoke - **#1 Marking longer Qs. (automated marking)** - AI could mark longer written Qs, suggesting which marks they student got and providing bespoke feedback on how they could improve, or clarifying their misunderstandings. - **AI content creation** - We already use GPT4 and Claude to help us generate revision notes, questions, and flashcards. - We want to keep pushing this to improve the quality and reduce the manual input required from our content writer.",
+    "The structure of the proposal must be in the following format: Page1: Title page, Page2: Brief Description page, Page3: Scope of Work (briefly describing how we will work with the client in 4 stages: 1.Technical alignment, 2. Design & Wire-framing, 3. Development, 4.Launch and beyond.), Page3: Feature Summary + Development timeline graph, Page4: Development Team (table) with a price per hour of each team member required for the project) + Costs & Hourse per feature (table), Page5: Technical Recomendation."
+  ],
+  "verbose": true
+}
